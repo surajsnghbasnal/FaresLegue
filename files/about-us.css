@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+.about-banner {
+    /* background-color: rgb(26, 13, 13); */
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-banner::before {
+    background: url(images/comman_banner_blog.webp);
+    content: "";
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+    filter: brightness(0.7);
+    background-repeat: no-repeat;
+}
+
+.about-txt {
+    /* background-color: aqua; */
+    width: 85%;
+    height: fit-content;
+
+}
+
+.about-txt p {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px #0000008c;
+}
+
+.about-txt ul {
+    display: flex;
+    padding: 0;
+    padding-top: 0px;
+    gap: 22px;
+    padding-top: 16px;
+    color: white;
+}
+
+
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-content-text {
+    width: 85%;
+    margin-top: 30px;
+}
+
+.about-content-text .content-head {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5e1a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-content-text ul {
+    padding-top: 10px;
+}
+
+.about-content-text li {
+    list-style-type: disc;
+}
